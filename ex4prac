@@ -1,0 +1,11 @@
+# Define the variables
+name = "Maydelyn B. Florido"
+birthday = "June 07, 2005"
+gender = "Female"
+email = "maydelynflorido07@gmail.com"
+
+# Print the information
+print("Name:", name)
+print("Birthday:", birthday)
+print("Gender:", gender)
+print("Email:", email)
