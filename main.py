@@ -1,12 +1,13 @@
 
 choice = 0
-while choice !=4:
+while choice !=5:
     print("Herchel Modules")
     print("1. Riomalos Module")
     print("2. Zyrrah Module")
     print("3. Run all")
     print("4. Steph Module")
-    print("5. exit")
+    print("5. Florido Module")
+    print("6. exit")
     print(" ")
     choice = input("Enter your choice: ")
 
@@ -37,6 +38,19 @@ while choice !=4:
         case '4':
             from herchel_package import steph_module
             steph_module.tell_joke()
-        
+
         case '5':
+            from florido import generate_female_name, generate_male_name
+
+            print("==================== Baby Name Generator ====================")
+            gender = input("Enter the gender of the baby (male & female): ").lower()
+
+            if gender == "female":
+                print(generate_female_name())
+            elif gender == "male":
+                print(generate_male_name())
+            else:
+                print("Incorrect input.")
+        
+        case '6':
             exit()
