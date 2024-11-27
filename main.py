@@ -5,7 +5,8 @@ while choice !=4:
     print("1. Riomalos Module")
     print("2. Zyrrah Module")
     print("3. Run all")
-    print("4. exit")
+    print("4. Steph Module")
+    print("5. exit")
     print(" ")
     choice = input("Enter your choice: ")
 
@@ -32,6 +33,10 @@ while choice !=4:
             print("\nCalendar")
             zy_module.show_month_calendar()
             zy_module.is_leap_year()
-        
+
         case '4':
+            from herchel_package import steph_module
+            steph_module.tell_joke()
+        
+        case '5':
             exit()
