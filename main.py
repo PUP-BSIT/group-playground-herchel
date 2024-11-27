@@ -40,15 +40,15 @@ while choice !=5:
             steph_module.tell_joke()
 
         case '5':
-            from florido import generate_female_name, generate_male_name
+            from herchel_package import florido
 
             print("==================== Baby Name Generator ====================")
             gender = input("Enter the gender of the baby (male & female): ").lower()
 
             if gender == "female":
-                print(generate_female_name())
+                print(florido.generate_female_name())
             elif gender == "male":
-                print(generate_male_name())
+                print(florido.generate_male_name())
             else:
                 print("Incorrect input.")
         
