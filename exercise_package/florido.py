@@ -29,5 +29,8 @@ def florido_menu():
         case '4':
             print("Riomalos comment: Hwaiting!")
 
+        case '4':
+            print('Riomalos comment: Hwaiting!')
+            
         case '6':
             exit()
