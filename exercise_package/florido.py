@@ -23,5 +23,8 @@ def florido_menu():
             print("2. Get a job")
             print("3. Be rich")
 
+        case '4':
+            print('Riomalos comment: Hwaiting!')
+            
         case '6':
             exit()
