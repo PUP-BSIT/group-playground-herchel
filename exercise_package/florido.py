@@ -24,7 +24,7 @@ def florido_menu():
             print("3. Be rich")
         
         case '3':
-            print("noted madam")
+            print("Durante's comment: noted madam")
 
         case '6':
             exit()
