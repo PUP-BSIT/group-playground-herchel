@@ -28,6 +28,9 @@ def siervo_menu():
 
             case '3':
                 print("Florido's Comment: Meow Meow")
+
+            case '5':
+                print("Riomalos Comment: Hwaiting!")
     
             case '6':
                 print("Exiting the program.")
