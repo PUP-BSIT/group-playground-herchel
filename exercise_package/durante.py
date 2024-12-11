@@ -26,5 +26,8 @@ def durante_menu():
                 print("Gain certifications")
                 print("Build a personal project portfolio")
 
+            case '5':
+                print("Hello this is my comment.")
+
             case '6':
                 exit()
