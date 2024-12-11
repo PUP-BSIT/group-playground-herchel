@@ -29,5 +29,8 @@ def durante_menu():
             case '3':
                 print("Florido's Comment: Meow Meow")
 
+            case '5':
+                print("Hello this is my comment.")
+
             case '6':
                 exit()
