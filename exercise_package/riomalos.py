@@ -32,7 +32,7 @@ def riomalos_menu():
                 print(input())
 
             case '3':
-                print("Florido's Comment: Meow Meow")
+                print("Florido's Comment: Meow Meow") 
 
             case '6':
                 exit()
