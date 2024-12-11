@@ -31,8 +31,12 @@ def riomalos_menu():
                 print('- Develop time management and self-discipline.')
                 print(input())
 
+            case '3':
+                print("Florido's Comment: Meow Meow") 
+                
             case '5':
                 print("very good")
+
 
             case '6':
                 exit()
