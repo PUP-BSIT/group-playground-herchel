@@ -25,6 +25,9 @@ def siervo_menu():
                 print("Learn more programming languages.")
                 print("Graduate college.")
                 print("To be successfull in life.")
+
+            case '3':
+                print("happy new year")
     
             case '6':
                 print("Exiting the program.")
