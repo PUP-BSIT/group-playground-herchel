@@ -32,5 +32,8 @@ def durante_menu():
             case '5':
                 print("Hello this is my comment.")
 
+            case '4':
+                print("Riomalos comment: Hwaiting!")
+
             case '6':
                 exit()
