@@ -22,6 +22,9 @@ def florido_menu():
             print("1. Graduate college")
             print("2. Get a job")
             print("3. Be rich")
+        
+        case '3':
+            print("noted madam")
 
         case '6':
             exit()
