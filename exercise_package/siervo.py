@@ -27,7 +27,13 @@ def siervo_menu():
                 print("To be successfull in life.")
 
             case '3':
+
+                print("happy new year")
+  
+
+            case '4':
                 print("Florido's Comment: Meow Meow")
+
     
             case '6':
                 print("Exiting the program.")

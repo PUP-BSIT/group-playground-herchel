@@ -33,6 +33,10 @@ def riomalos_menu():
 
             case '3':
                 print("Florido's Comment: Meow Meow") 
+                
+            case '5':
+                print("very good")
+
 
             case '6':
                 exit()
