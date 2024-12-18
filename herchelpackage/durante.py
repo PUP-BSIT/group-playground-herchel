@@ -70,3 +70,4 @@ class FitnessTracker:
 
 tracker = FitnessTracker()
 tracker.menu()
+
