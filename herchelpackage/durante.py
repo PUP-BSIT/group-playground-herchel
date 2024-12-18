@@ -8,7 +8,7 @@ class FitnessTracker:
         else:
             self.activities[activity_name] = minutes
             
-        print(f"Logged {minutes} minutes for {activity_name}. "
+        print(f"Logged {minutes} minutes for {activity_name}."
               f"\nTotal: {self.activities[activity_name]} minutes.")
 
     def remove_activity(self, activity_name):
@@ -53,7 +53,7 @@ class FitnessTracker:
                 case "1":
                     activity_name = input("Enter the activity name: ")
                     minutes = int(input("Enter the number of minutes: "))
-                    print(self.log_activity(activity_name, minutes))
+                    self.log_activity(activity_name, minutes)
                 case "2":
                     activity_name = input("Enter the activity name to remove: ")
                     self.remove_activity(activity_name)
@@ -70,4 +70,4 @@ class FitnessTracker:
                     print("Invalid choice. Please try again.")
 
 tracker = FitnessTracker()
-tracker.menu()
+tracker.display_menu()

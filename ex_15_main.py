@@ -14,8 +14,9 @@ while choice != EXIT_OPTION:
 
     match choice:
         case 1: 
-            # TODO(Durante): call the menu in your module
-            pass
+            from herchelpackage import durante
+
+            FitnessTracker = durante.tracker.display_menu()
         case 2:
             from herchelpackage import florido
             
