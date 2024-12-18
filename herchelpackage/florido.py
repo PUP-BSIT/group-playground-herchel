@@ -99,7 +99,7 @@ class Christmas:
         print(f"{self.greet} and Happy Holidays!")
         print(f"                               - {self.name}")
 
-    def menu():
+    def display_menu():
         UNSET_OPTION = 0
         BACK_TO_MAIN_MENU_OPTION = 6
         choice = UNSET_OPTION
