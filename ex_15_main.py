@@ -24,7 +24,10 @@ while choice != EXIT_OPTION:
             # TODO(Riomalos): call the menu in your module
             pass
         case 4:
-            # TODO(Siervo): call the menu in your module
+            from herchel.siervo import GradeManagementSystem
+            
+            grades = GradeManagementSystem()
+            grades.display_menu()
             pass
         case 5:
             pass
