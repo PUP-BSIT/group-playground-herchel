@@ -15,12 +15,17 @@ while choice != EXIT_OPTION:
     match choice:
         case 1: 
             # TODO(Durante): call the menu in your module
+            pass
         case 2:
-            # TODO(Florido): call the menu in your module
+            from herchelpackage import florido
+            
+            christmas = florido.Christmas.display_menu()
         case 3:
             # TODO(Riomalos): call the menu in your module
+            pass
         case 4:
             # TODO(Siervo): call the menu in your module
+            pass
         case 5:
             pass
         case _:
