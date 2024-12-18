@@ -37,7 +37,7 @@ class FitnessTracker:
         self.activities.clear()
         print("All activities have been cleared.")
 
-    def menu(self):
+    def display_menu(self):
         while True:
             print("\nFitness Tracker")
             print("1. Log Activity")
